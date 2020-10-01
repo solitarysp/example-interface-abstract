@@ -37,7 +37,7 @@ public class ResourceUrl implements Resource {
             this.body = sb.toString();
 
         } catch (Exception e) {
-            System.out.println("error");
+            e.printStackTrace();
         }
     }
 
